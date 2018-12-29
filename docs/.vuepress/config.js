@@ -41,6 +41,11 @@ module.exports = {
           ]
         }
       ]
-    }
+    },
+    docsRepo: 'Anrop/Anrop-Docs',
+    docsDir: 'docs',
+    docsBranch: 'master',
+    editLinks: true,
+    editLinkText: 'Förbättra denna sida!'
   }
 }

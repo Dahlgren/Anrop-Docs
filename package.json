@@ -1,0 +1,17 @@
+{
+  "name": "anrop-docs",
+  "version": "1.0.0",
+  "author": "Anrop",
+  "license": "MIT",
+  "scripts": {
+    "build": "vuepress build docs",
+    "dev": "vuepress dev docs",
+    "start": "vuepress dev docs --open"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vuepress": "^1.0.0-alpha.30"
+  }
+}

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "author": "Anrop",
   "license": "MIT",
+  "repository": "github:Anrop/Anrop-Docs",
   "scripts": {
     "build": "vuepress build docs",
     "dev": "vuepress dev docs",

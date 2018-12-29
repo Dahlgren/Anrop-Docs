@@ -54,6 +54,14 @@ module.exports = {
               ]
             },
             {
+              title: 'Identifikation',
+              collapsable: false,
+              children: [
+                '/arma3/identification/sweden/',
+                '/arma3/identification/usa/'
+              ]
+            },
+            {
               title: 'Editing',
               collapsable: false,
               children: [

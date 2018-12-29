@@ -4,6 +4,7 @@ module.exports = {
     nav: [
       { text: 'Start', link: '/' },
       { text: 'Arma 3', link: '/arma3/' },
+      { text: 'DCS', link: '/dcs/' },
       { text: 'Tillbaka till Anrop', link: 'https://www.anrop.se' },
     ],
     sidebar: {
@@ -26,6 +27,17 @@ module.exports = {
             '/arma3/editing/eden/',
             '/arma3/editing/zeus/',
             '/arma3/editing/sqf/'
+          ]
+        }
+      ],
+      '/dcs/': [
+        '/dcs/',
+        {
+          title: 'Moduler',
+          collapsable: false,
+          children: [
+            '/dcs/modules/ajs37/',
+            '/dcs/modules/f18/'
           ]
         }
       ]

@@ -7,6 +7,7 @@
   "scripts": {
     "build": "vuepress build docs",
     "dev": "vuepress dev docs",
+    "serve": "serve -l 8080 docs/.vuepress/dist",
     "start": "vuepress dev docs --open"
   },
   "devDependencies": {
@@ -14,5 +15,8 @@
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "vuepress": "^1.0.0-alpha.30"
+  },
+  "dependencies": {
+    "serve": "^10.1.1"
   }
 }

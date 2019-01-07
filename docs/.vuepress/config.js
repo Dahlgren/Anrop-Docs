@@ -25,8 +25,9 @@ module.exports = {
           collapsable: false,
           children: [
             '/arma3/editing/eden/',
-            '/arma3/editing/zeus/',
-            '/arma3/editing/sqf/'
+            '/arma3/editing/headless/',
+            '/arma3/editing/sqf/',
+            '/arma3/editing/zeus/'
           ]
         }
       ],

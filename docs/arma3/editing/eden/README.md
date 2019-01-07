@@ -17,5 +17,9 @@ Mer tips och tricks finns att läsa på [Bohemias Wiki](https://community.bistud
 I CBA A3 finns en smidig funktion som låter uppdragsskapare sätta namn på sina grupper i lobbyn.
 Fyll i rutan "Role Description" med gruppens namn på **samtliga** gruppmedlemmar.
 
+![Object settings](./assets/object_settings.png)
+
+![Lobby](./assets/lobby.png)
+
 Läs mer på [Name Groups in Lobby
 ](https://github.com/CBATeam/CBA_A3/wiki/Name-Groups-in-Lobby)

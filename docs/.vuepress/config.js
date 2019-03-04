@@ -11,6 +11,14 @@ module.exports = {
       '/arma3/': [
         '/arma3/',
         {
+          title: 'Kom igång',
+          collapsable: false,
+          children: [
+            '/arma3/getstarted/steam/',
+            '/arma3/getstarted/a3sync/'
+          ]
+        },
+        {
           title: 'Modifikationer',
           collapsable: false,
           children: [

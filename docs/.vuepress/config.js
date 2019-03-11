@@ -15,6 +15,7 @@ module.exports = {
     editLinks: true,
     locales: {
       '/': {
+        label: 'Svenska',
         selectText: 'Språk',
         editLinkText: 'Förbättra denna sida!',
         nav: [
@@ -70,6 +71,7 @@ module.exports = {
         }
       },
       '/en/': {
+        label: 'English',
         nav: [
           { text: 'Start', link: '/en/' },
           { text: 'Arma 3', link: '/en/arma3/' },

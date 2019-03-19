@@ -1,4 +1,4 @@
-# Using Arma3Sync
+# Arma3Sync
 
 ## What
 
@@ -10,7 +10,7 @@ Arma3Sync also simplifies downloading mods from many different sources - known a
 Anrop's Arma3Sync repository is integrated with the operation pages on Anrop.se.  
 This enables users to browse either the full repository containing all mods currently being hosted in the repository, or event-specific subrepositories containing only mods that are part of a specific operation's modset.
 
-## Why
+## For Whom
 
 For users who want better control of when mods are downloaded or updated, and where they are downloaded to and loaded into the game from.
 

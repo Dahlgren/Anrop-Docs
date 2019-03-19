@@ -1,4 +1,4 @@
-# Using Steam
+# Steam Workshop
 
 ## What
 
@@ -6,7 +6,7 @@ The Arma 3 launcher supports loading predefined sets of mods - launcher preset f
 
 Generation of launcher preset files is integrated into Anrop's event pages.
 
-## Why
+## For Whom
 
 For those who want the shortest and simplest path from deciding to attend an event to being able to play.
 

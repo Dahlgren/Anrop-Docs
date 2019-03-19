@@ -1,56 +1,60 @@
-# Using Steam
+# Steam Workshop
 
-## What
+## Vad
 
-The Arma 3 launcher supports loading predefined sets of mods - launcher preset files - available on the Arma 3 Steam Workshop.
+Arma 3-launchern låter dig ladda ned fördefinierade grupper av modifikationer som finns på Steams Arma 3-workshop.
 
-Generation of launcher preset files is integrated into Anrop's event pages.
+Grupperna hanteras genom så kallade `launcher preset`-filer, generation av dessa filer är integerat i Anrops eventsidor.
 
-## Why
+## För vem
 
-For those who want the shortest and simplest path from deciding to attend an event to being able to play.
+För den som vill ha den kortaste och enklaste vägen från att vilja delta till att vara redo att spela.
 
-## How
+## Hur
 
-### Step 1
+### Steg 1
 
-Navigate to the relevant event page on [Anrop.se](https://www.anrop.se) and find the button labelled:  
+Navigera till det event du vill delta i på [Anrop.se](https://www.anrop.se) och hitta knappen märkt:  
 `Ladda ner Launcher Preset`
 
 ![Download preset](./assets/download_preset.png)
 
-Click it, and remember where you saved the preset file that you are asked to download.
+Klicka på den, och kom ihåg var du sparar filen du blir ombedd att ladda ner.
 
-### Step 2
+### Steg 2
 
-Start the Arma 3 launcher in Steam and go to the `MODS` tab, then click the dropdown menu labelled `PRESET`.
+Starta Arma 3-launchern i Steam och gå till `MODS`-fliken, klicka sen på dropdown-menyn märkt `PRESET`.
 
-The currently active preset is shown to the right of the `PRESET` label.  
-If no preset is selected, `Unsaved preset` is displayed instead.
+Det för närvarande aktiva eventet visas till höger om `PRESET`-texten.  
+Om inget event är valt står det istället `Unsaved preset`.
 
 ![Open launcher](./assets/open_launcher.png)
 
-### Step 3
+### Steg 3
 
-In the dropdown menu that appears, click `Import` at the bottom, and navigate to where you saved the file in the first step.  
+I dropdown-menyn som dyker upp klickar du på knappen märkt `Import` längst ner.  
+Navigera sedan dit du sparat filen du laddade ner i steg 1.  
 
 ![Import preset file](./assets/import_preset_file.png)
 
-Select the file and press `Open`.
+Välj filen och klicka på `Open` eller motsvarande knapp.
 
 ![Select preset file](./assets/select_preset_file.png)
 
-### Step 4
+### Steg 4
 
-Now a popup appears asking you if you would like to subscribe to the mods that are part of the preset and you have not already subscribed to.
+Om du inte redan prenumererar på alla modifikationer som krävs för eventet öppnas ett fönster som frågar om du vill prenumerera (subscribe) på de modifikationer som krävs och som du inte redan prenumererar på.
 
-In case the popup appears, click on `Subscribe` to continue, the launcher will now subscribe you to the mods in the Steam Workshop, and start downloading.
+Om fönstret öppnas, klicka på `Subscribe` för att fortsätta.  
+Launchern kommer nu att prenumerera på de modifikationer som saknas och börja ladda ner dem.
 
-Wait until it is done, how long it takes depends on your download speed and what type of disk you are downloading to.  
-A Solid State Drive (SSD) is faster than a Hard Disk Drive (HDD), meaning that it may take time even if you have a fast internet connection.
+**Vänta nu tills alla nedladdningar är klara.**  
 
 ![Subscription Popup](./assets/subscription_popup.png)
 
-### Step 5
+Hur lång tid det tar beror på din nedladdningshastighet, men även på vilken typ av disk du laddar ner till.  
+En `Solid State Drive (SSD)` kommer att gå snabbare att ladda ner till än en `Hard Disk Drive (HDD)`, nedladdningshastighet är alltså inte allt om du inte kan skriva det till disk fort nog.
 
-The mods are now selected, and you are ready to press the large `PLAY`-button in the launcher to start the game.
+### Steg 5
+
+Eventet är nu valt, och du är redo att klicka på den stora `PLAY`-knappen i launchern för att starta spelet.

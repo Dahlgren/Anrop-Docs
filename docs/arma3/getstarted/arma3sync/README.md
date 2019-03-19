@@ -1,126 +1,129 @@
-# Using Arma3Sync
+# Arma3Sync
 
-## What
+## Vad
 
-Arma3Sync is a powerful third-party launcher for Arma 3.
-It supports the use of groups of mods - `modsets` - modsets can be defined by individual users or an event host, and they can be loaded independently of each other.
+Arma3Sync är en kraftfull launcher för Arma 3 med stöd för användande av grupper av modifikationer, så kallade `modset`.  
+Modset kan definieras av användaren, eller av eventarrangörer, och enskilda modset kan nyttjas oberoende av varandra.
 
-Arma3Sync also simplifies downloading mods from many different sources - known as `repositories`.
+Arma3Sync förenklar också nedladdning av modifikationer från olika källor, vilka kallas `repositories`.
 
-Anrop's Arma3Sync repository is integrated with the operation pages on Anrop.se.  
-This enables users to browse either the full repository containing all mods currently being hosted in the repository, or event-specific subrepositories containing only mods that are part of a specific operation's modset.
+Anrops Arma3Sync-repository är integrerat med eventsidorna på [Anrop.se](https://www.anrop.se).  
+Det innebär att du kan söka i antingen det fullständiga repositoryt som innehåller alla modifikationer som för närvarande hostas där, eller eventspecifika subrepositories som endast innehåller de modifikationer som är aktuella för ett specifikt event.
 
-## Why
+## För vem
 
-For users who want better control of when mods are downloaded or updated, and where they are downloaded to and loaded into the game from.
+För användare som vill ha bättre kontroll över när modifikationer laddas ner eller uppdateras, och vart de laddas ner till och laddas in i spelet från.
 
-A number of additional options are available, but do not differ much from the basic Arma 3 launcher for normal users.
+Ett antal andra funktioner finns, men de skiljer sig inte nämnvärt från vad som erbjuds i den vanliga Arma 3-launchern.
 
 ## Installation
 
-### Step 1
+### Steg 1
 
-[Download Arma3Sync by clicking this link.](http://hosted.anrop.se/arma3sync.exe) run the installer and then start Arma3Sync when the installer finishes.
+[Ladda ner Arma3Sync genom att klicka på denna länk.](http://hosted.anrop.se/arma3sync.exe), kör installerarprogrammet och starta Arma3Sync när installationen är färdig.
 
-You will then be presented with the following screen, asking you for the path to your Arma 3 installation folder.
+Du kommer då se följande fönster som ber om sökvägen till din Arma 3-installation.
 
-Find your Steam installation folder, from there the path to the Arma 3 folder is:  
+Hitta mappen där du installerat Steam, därifrån är sökvägen till Arma 3-mappen följande:  
 `\Steam\steamapps\common\Arma 3\`
 
 ![Select Arma 3 dir](./assets/select_arma3_dir.png)
 
-### Step 2
+### Steg 2
 
-Before doing anything else we need to decide to where the mods shall be downloaded.
+Innan du gör något annat måste du bestämma var du ska ladda ner modifikationerna till.
 
-In Windows Explorer navigate to your Arma 3 installation folder.  
-Create a folder called `anrop` there.   
-This will be where we the mods are downloaded to.
+Öppna `Windows Utforskare (Explorer)` och navigera till där du installerat Arma 3.  
+I Arma 3-mappen: skapa en mapp och döp den till `anrop`.  
+Det är till denna map som du kommer att ladda ner modifikationer.
 
-**Do not touch any other folder or file in the Arma 3 directory!**
+**OBS! Rör inga andra mappar eller filer i Arma 3-mappen!**
 
 ![Create Mod Folder](./assets/create_mod_folder.png)
 
-### Step 3
+### Steg 3
 
-Open Arma3Sync and go to the tab `Addon Options`.
+Öppna Arma3Sync och byt till fliken `Addon Options`.
 
-Click the blue plus sign on the right hand side.  
-Navigate to the folder you just created, select it, and press open in the menu that popped up.
+Klicka på det blåa plustecknet på högersidan.
+
+Navigera till mappen du nyss skapade, välj den, och klicka på `Open` i menyn som öppnades.
 
 ![Select Mod Folder](./assets/select_mod_folder.png)
 
-Now we have a place to download mods to, on to figuring out what mods to download!
+Nu har du valt var du ska ladda ner modifikationer till, dags att välja varifrån du ska ladda ner dem!
 
-## Connecting to Anrop's Repository
+## Anslut till Anrops Repository
 
-### Step 1
+### Steg 1
 
-Now go to the tab `Repositories` and click the blue plus present on the right side there.
+Gå till fliken `Repositories` och klicka på det blå plustecknet till höger där.
 
-In the window that pops up paste the adress below into the field `Public auto-config url` and press the `Import`-button:  
-```https://arma3sync.anrop.se/.a3s/autoconfig```
+I fönstret som öppnas klistrar du in följande adress i fältet `Public auto-config url` och klickar sedan på knappen märkt `Import`:  
+`https://arma3sync.anrop.se/.a3s/autoconfig`
 
 ![Set Up Connection](./assets/set_up_connection.png)
 
-This sets up a bookmark for Anrop's repository, now you're ready to grab some modsets!
+Detta skapar ett bokmärke till Anrops repository, nu är du redo att hämta modset!
 
-## Adding a modset
+## Lägga till ett Modset
 
-### Step 1
+### Steg 1
 
-Switch to the `Addons` tab.
+Byt till fliken `Addons`.
 
-On the left under `Available Addons` mods that are present in the `anrop` folder are shown.  
-On the right under `Addon Groups` groups of addons - commonly referred to as `modsets` - are listed.
+Till vänster, under `Available Addons` visas de modifikationer som du laddat ner till `anrop`-mappen.  
+Till höger, under `Addon Groups` visas de grupper av addons - `modsets` - som hör till event, eller som du skapat själv.
 
-To retrieve the modset of an event, click the blue plus labelled `Modsets` above the `Addon Groups` section.
+För att hämta det modset som hör till ett event, klicka på det blåa plustecknet märkt `Modsets` ovanför `Addon Groups`-sektionen.
 
 ![Addons Tab](./assets/addons_tab.png)
 
-In the window that pops up, under `Get addon group from Event` select the operation or template you want to add.  
-Click `OK` to add the selected modset(s) to your local addon groups.
+I fönstret som öppnas, under `Get addon group from Event`, välj det event vars modset du vill hämta.  
+Klicka sen på `OK` för att hämta de modset du valt.
 
 ![Get addon group](./assets/get_addon_group.png)
 
-### Step 2
+### Steg 2
 
-The modset you selected should now appear in the `Addon Groups` section.  
-In order for it to be loaded when you start the game you need to check the checkbox to the left of the folder icon of the modset.
+Modset hörande till det event som du valde dyker nu upp i sektionen `Addon Groups`.  
+För att ett modset ska laddas när spelet startas måste du kryssa i rutan till vänster om dess mappikon.
 
-Check the checkbox, then click the plus to the left of the checkbox to expand the modset.  
-Now you will see that the mods are listed with red instead of black text, indicating that they are not present in your `anrop` folder.
+Kryssa i rutan för att välja modsetet, sen klickar du på plustecknet till vänster om kryssrutan för att expandera det.  
+Nu ser du att de modifikationer som är del av modsetet listas med röd istället för svart text.  
+Det innebär att de inte ännu finns i din `anrop`-mapp.
 
-To fix this we will have to download the mods, more about that below.
+För att lösa det måste du ladda ner dem, mer om det i nästa steg.
 
 ![Checked Modset](./assets/checked_modset.png)
 
-## Downloading Mods
+## Ladda ner modifikationer
 
-### Step 1
+### Steg 1
 
-In the `Repositories` tab, look at the list of events and find the operation that you will be participating in next.
+Hitta listan på event längst ner i fliken `Repositories`, och hitta i den det event du vill delta i.
 
-Select it by clicking on it, then click the button with the blue arrow to the right of the list in order to connect to that operation's repository.
+Välj eventet genom att klicka på det, klicka sedan på knappen med en blå pil till höger om listan för att ansluta till eventets repository.
 
 ![Select Operation](./assets/select_operation.png)
 
-### Step 2
+### Steg 2
 
-Now you have the mods required for that event in front of you.  
-All mods that you have not downloaded already will have a Warning sign instead of the normal icon, as well as red text, together signifying that they are not downloaded yet.
+Nu har du de modifikationer som krävs för eventet framför dig.  
+Alla modifikationer som du inte redan laddat ner kommer att visas med röd text, och de som behöver uppdateras har en varningsskylt som ikon.  
+Textfärgen och ikonen visar tillsammans status för modifikationerna, har en modifikation både röd text och varningsskylt har de inte laddats ner än.
 
-In order to download mods you select each of the mods that you want to download.  
-You do this by either checking the box to the left of the mod's icon, or by clicking `Select All` in the menu above the list.
+För att ladda ner modifikationerna väljer du först alla de modifikationer som du vill ladda ner.  
+Du gör det antingen genom att kryssa i rutan till vänster om modifikationernas ikoner, eller genom att kryssa i `Select All` i menyn ovanför listan.
 
-**Do note that you should under NO circumstances connect to the main repository and click Select All, as you will be downloading several hundred Gigabytes of mods then!**
+**OBS! Du ska under INGA omständigheter ansluta till huvudrepositoryt och kryssa i Select All!  
+Gör du det riskerar du att ladda ner flera hundra Gigabyte modifikationer!**
 
-Now click the `Start`-button on the left to download the selected mods.
+Klicka nu på `Start`-knappen till vänster för att ladda ner de valda modifikationerna.
 
 ![Select Mods](./assets/select_mods.png)
 
-### Step 3
+### Steg 3
 
-When the download is done you are ready to take part in a operation!  
-Check the `Addons` tab once more to make sure that you have selected the correct modset to start with, and then press `Start Game`.
-
+När nedladdningen är färdig är du redo att delta i ett event!  
+Kolla i `Addons`-fliken en sista gång för att säkerställa att du valt rätt modset att starta spelet med, och klicka sedan på `Start Game`.

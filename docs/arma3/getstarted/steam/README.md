@@ -4,7 +4,7 @@
 
 Arma 3-launchern låter dig ladda ned fördefinierade grupper av modifikationer som finns på Steams Arma 3-workshop.
 
-Grupperna hanteras genom så kallade `launcher preset`-filer, generation av dessa filer är integerat i Anrops eventsidor.
+Grupperna hanteras genom så kallade `launcher preset`-filer, generering av dessa filer är integerat i Anrops eventsidor.
 
 ## För vem
 

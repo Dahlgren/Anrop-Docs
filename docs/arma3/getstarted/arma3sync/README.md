@@ -20,7 +20,7 @@ Ett antal andra funktioner finns, men de skiljer sig inte nämnvärt från vad s
 
 ### Steg 1
 
-[Ladda ner Arma3Sync genom att klicka på denna länk.](http://hosted.anrop.se/arma3sync.exe), kör installerarprogrammet och starta Arma3Sync när installationen är färdig.
+[Ladda ner Arma3Sync genom att klicka på denna länk](https://hosted.anrop.se/arma3sync.exe), kör installerarprogrammet och starta Arma3Sync när installationen är färdig.
 
 Du kommer då se följande fönster som ber om sökvägen till din Arma 3-installation.
 

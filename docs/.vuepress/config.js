@@ -46,6 +46,13 @@ module.exports = {
               ]
             },
             {
+              title: 'Guider',
+              collapsable: false,
+              children: [
+                '/arma3/guides/eldledning/'
+              ]
+            },
+            {
               title: 'Editing',
               collapsable: false,
               children: [

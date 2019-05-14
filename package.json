@@ -11,13 +11,9 @@
     "start": "vuepress dev docs --open"
   },
   "devDependencies": {
-    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.0",
-    "@vuepress/theme-default": "1.0.0-alpha.30",
-    "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0",
-    "vuepress": "^1.0.0-alpha.31"
+    "vuepress": "^1.0.0-alpha.48"
   },
   "dependencies": {
-    "serve": "^10.1.1"
+    "serve": "^11.0.0"
   }
 }

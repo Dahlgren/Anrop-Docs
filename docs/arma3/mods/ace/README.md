@@ -45,5 +45,7 @@ Knapp | Förklaring
 5 | Byt till missil
 9 | Skjut rökkastare
 Del | Slå på farthållare
+Ctrl + Mushjul framåt | Öka farthållaren med 1 km/h
+Ctrl + Mushjul bakåt | Minska farthållaren med 1 km/h
 
 ## Medical

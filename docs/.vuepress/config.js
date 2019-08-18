@@ -71,8 +71,20 @@ module.exports = {
               title: 'Moduler',
               collapsable: false,
               children: [
+                '/dcs/modules/a10c/',
                 '/dcs/modules/ajs37/',
-                '/dcs/modules/f18/'
+                '/dcs/modules/av8/',
+                '/dcs/modules/f5/',
+                '/dcs/modules/f14/',
+                '/dcs/modules/f18/',
+                '/dcs/modules/f86/',
+                '/dcs/modules/ka50/',
+                '/dcs/modules/m2000c/',
+                '/dcs/modules/mi8/',
+                '/dcs/modules/mig15/',
+                '/dcs/modules/mig19/',
+                '/dcs/modules/mig21/',
+                '/dcs/modules/uh1/'
               ]
             }
           ]

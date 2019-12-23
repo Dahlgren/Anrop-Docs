@@ -11,9 +11,9 @@
     "start": "vuepress dev docs --open"
   },
   "devDependencies": {
-    "vuepress": "^1.0.3"
+    "vuepress": "^1.2.0"
   },
   "dependencies": {
-    "serve": "^11.1.0"
+    "serve": "^11.2.0"
   }
 }

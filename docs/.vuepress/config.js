@@ -78,6 +78,7 @@ module.exports = {
                 '/dcs/modules/f14/',
                 '/dcs/modules/f18/',
                 '/dcs/modules/f86/',
+                '/dcs/modules/jf17/',
                 '/dcs/modules/ka50/',
                 '/dcs/modules/m2000c/',
                 '/dcs/modules/mi8/',

@@ -76,6 +76,7 @@ module.exports = {
                 '/dcs/modules/av8/',
                 '/dcs/modules/f5/',
                 '/dcs/modules/f14/',
+                '/dcs/modules/f16/',
                 '/dcs/modules/f18/',
                 '/dcs/modules/f86/',
                 '/dcs/modules/jf17/',
